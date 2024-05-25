@@ -64,4 +64,4 @@ $ aws ec2 associate-dhcp-options \
 
   ### images/network config.jpeg
 
-
+I dont kmow what i am doing 
