@@ -19,7 +19,7 @@ Prometheus & Grafana for monitoring and alerting
 
 ## DataFlow of the application 
 - User vote for either cinema or Netflix
-- The votes are stores in redis
+- The votes are stored in redis
 - The background worker syncs vote from Redis to PostgreSQL
 - The result service then reads the results from PostgreSQL and displays the result
 - Postgres then scap metric and grafana does the visualization.
